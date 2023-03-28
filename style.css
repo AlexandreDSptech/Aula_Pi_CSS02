@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+.conteiner{
+    background-color: #cdcdcd;
+    height: fit-content;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+}
+.positional1{
+    justify-content: start;/*Bom, eu fiz esse só pq sim mesmo, mas eu sei que não precisa*/
+}
+.positional2{
+    justify-content: end;
+}
+.positional3{
+    justify-content: center;
+}
+.positional4{
+    justify-content: space-between;
+}
+.positional5{
+    justify-content: space-around;
+}
+.positional6{
+    justify-content: space-evenly;
+}
+.positional7{
+    flex-direction: column-reverse;
+}
+.positional8{
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+.box{
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+}
+.img1{
+    background-image: url(https://i.pinimg.com/736x/c9/fd/02/c9fd02d256af650af334e2e971d08f77.jpg);
+}
+.img2{
+    background-image: url(https://i.pinimg.com/originals/9c/ea/b1/9ceab1830c6e6a5ab61e78611c9c1caf.jpg);
+}
+.img3{
+    background-image: url(https://i.pinimg.com/originals/9e/d8/14/9ed8143b1988540eb5cc862a47602596.jpg);
+}
+.img4{
+    background-image: url(https://64.media.tumblr.com/dbf9131903cf294c39a77a274be4a691/b32780f93553cad2-bb/s640x960/b0c4a9e1a6e91422aba30c3278bab2b3d05dbb5e.jpg);
+}
+/*
+Bom, eu tinha feito sozinho antes, ai depois ví que tinha essa base pronta, mas eu não sabia se eu mantinha a que eu fiz ou se fazia na base, ai deixei as duas mesmo
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    display: flex;
+}
+.box1 {
+    background-color: #63b1bc;
+}
+.box2 {
+    background-color: #1f2a44;
+}
+.box3 {
+    background-color: #ed145b;
+}
+.box4 {
+    background-color: #efb661;
+}
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+.container1 {
+    justify-content: start
+}
+.container2 {
+    justify-content: end;
+}
+.container3 {
+    justify-content: center;
+}
+.container4 {
+    justify-content: space-between;
+}
+.container5 {
+    justify-content: space-around;
+}
+.container6 {
+    justify-content: space-evenly;
+}
+.container-exercicioB{
+    flex-direction: column-reverse;
+}
+.container-desafio{
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+*/
